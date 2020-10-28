@@ -81,11 +81,13 @@ function Home() {
       ))}
 
       {/* footer  */}
-      {/* <div className="container-fluid m-0 p-0 w-auto">
+      <div className="container-fluid m-0 p-0 w-auto h-auto mt-4">
         <div className="row m-0 p-0">
-          <div className="col m-0 p-0"></div>
+          <div className="col m-0 p-0">
+            <Footer/>
+          </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
