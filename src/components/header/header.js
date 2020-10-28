@@ -70,9 +70,6 @@ function Header() {
                 Workout Shirts{" "}
               </Dropdown.Item>
               <Dropdown.Item href="#/action-3" className="dropdown__item">
-                Workout Shirts{" "}
-              </Dropdown.Item>
-              <Dropdown.Item href="#/action-3" className="dropdown__item">
                 T-Shirt Dryfit
               </Dropdown.Item>
               <Dropdown.Item href="#/action-3" className="dropdown__item">
@@ -106,7 +103,7 @@ function Header() {
                 Sports Bra
               </Dropdown.Item>
               <Dropdown.Item href="#/action-3" className="dropdown__item">
-                Women Track Suit
+                Track Suit
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
