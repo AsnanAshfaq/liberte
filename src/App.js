@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./App.css";
-import Header from "./header/header.js";
+import Home from './components/Home/home'
 
 function App() {
   return (
     <div className="App" style={{ width: "auto" }}>
-      <Header />
+      <Home />
     </div>
   );
 }

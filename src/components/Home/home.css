@@ -1,0 +1,20 @@
+.text {
+  font-family: Arial;
+  user-select: none;
+  font-size: calc(0.5em +0.6vw);
+}
+.link:hover {
+  cursor: pointer;
+}
+.card-container {
+  max-height: 100px;
+}
+.card-container:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 350px) {
+  .card-img-top {
+    height: 10px;
+    background-color: red;
+  }
+}

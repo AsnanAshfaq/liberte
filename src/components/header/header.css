@@ -13,7 +13,6 @@
 }
 
 .header__logo {
-  font-family: "Courier New", Courier, monospace;
   font-size: calc(1.4em + 1vw);
   color: white;
   display: flex;
@@ -65,11 +64,28 @@
 
 .register{
   user-select: none;
-  font-family: Arial,;
+  font-family: Arial;
   color: white;
 }
 .register:hover{
   color: #c4c8cb !important;
   text-decoration: none;
   cursor: pointer;
+}
+
+/* on small screens hide the free space  */
+@media screen and (max-width: 700px) {
+  .free_space {
+    display: none;
+  }
+  .logo{
+    float: left;
+  }
+  .drop{
+    float: left;
+  }
+  .logo, .drop{
+    /* display: block;
+    background-color: red !important; */
+  }
 }
